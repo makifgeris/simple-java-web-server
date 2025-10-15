@@ -101,6 +101,7 @@ java-socket-webserver/
 |-------|----------|
 | `SimpleWebServer.java` | Socket sunucu implementasyonu ve HTML üretimi |
 | `README.md` | Bu döküman |
+| `sunucu_calistir.bat` | Windows için otomatik derleme ve çalıştırma scripti |
 
 ### Kullanılan Teknolojiler ve API'ler
 
