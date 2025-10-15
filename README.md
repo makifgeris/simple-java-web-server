@@ -179,7 +179,7 @@ http://localhost:1989
 private static final int PORT = 8080;  // Port değiştir
 ```
 ```bash
-javac SimpleWebServer.java
+javac -encoding UTF-8 SimpleWebServer.java
 java SimpleWebServer
 # http://localhost:8080
 ```
