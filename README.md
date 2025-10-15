@@ -63,7 +63,7 @@ cd java-socket-webserver
 
 2. **Projeyi derleyin**
 ```bash
-javac SimpleWebServer.java
+javac -encoding UTF-8 SimpleWebServer.java
 ```
 
 3. **Sunucuyu başlatın**
