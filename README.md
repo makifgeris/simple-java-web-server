@@ -70,12 +70,7 @@ javac SimpleWebServer.java
 ```bash
 java SimpleWebServer
 ```
-Alternatif çalıştırma: Windows'ta Hızlı Başlatma
-```bash# CMD veya PowerShell
-sunucu_calistir.bat
 
-# veya dosyaya çift tıklayın
-```
 4. **Tarayıcınızda açın**
 ```
 http://localhost:1989
@@ -191,6 +186,42 @@ java SimpleWebServer
 ### Senaryo 3: Curl ile Test
 ```bash
 curl http://localhost:1989
+```
+### Senaryo 4: Windows'ta Hızlı Başlatma
+
+**Komut satırından:**
+```cmd
+sunucu_calistir.bat
+```
+
+**veya** Windows Explorer'da `sunucu_calistir.bat` dosyasına çift tıklayın.
+
+**sunucu_calistir.bat içeriği:**
+```batch
+@echo off
+echo ====================================
+echo Java Web Sunucusu Baslatiliyor...
+echo ====================================
+echo.
+
+echo Derleniyor...
+javac -encoding UTF-8 SimpleWebServer.java
+
+if %errorlevel% neq 0 (
+    echo.
+    echo HATA: Derleme basarisiz!
+    pause
+    exit /b 1
+)
+
+echo Derleme basarili!
+echo.
+echo Sunucu baslatiliyor...
+echo.
+
+java SimpleWebServer
+
+pause
 ```
 
 
