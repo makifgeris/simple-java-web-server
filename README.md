@@ -88,11 +88,10 @@ Tarayıcınızda http://localhost:1989 adresini ziyaret edin
 ##  Proje Yapısı
 
 ```
-java-socket-webserver/
+simple-java-web-server/
 │
 ├── SimpleWebServer.java    # Ana sunucu dosyası
-├── README.md               # Proje dokümantasyonu
-└── .gitignore             # Git ignore dosyası
+└── README.md             # Proje dokümantasyonu
 ```
 
 ### Dosya İçeriği
