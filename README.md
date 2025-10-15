@@ -5,7 +5,7 @@
 
 Saf Java Socket programlama kullanılarak geliştirilmiş, hafif ve eğitim amaçlı bir HTTP web sunucusu. Harici kütüphane kullanmadan, sadece Java'nın yerleşik socket API'leri ile HTTP protokolü implementasyonu yapılmıştır.
 
-## 📋 Proje Bilgileri
+##  Proje Bilgileri
 
 | Bilgi | Detay |
 |-------|-------|
@@ -70,7 +70,12 @@ javac SimpleWebServer.java
 ```bash
 java SimpleWebServer
 ```
+Alternatif çalıştırma: Windows'ta Hızlı Başlatma
+```bash# CMD veya PowerShell
+sunucu_calistir.bat
 
+# veya dosyaya çift tıklayın
+```
 4. **Tarayıcınızda açın**
 ```
 http://localhost:1989
