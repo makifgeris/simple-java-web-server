@@ -11,7 +11,6 @@ Saf Java Socket programlama kullanılarak geliştirilmiş, hafif ve eğitim ama�
 |-------|-------|
 | **Öğrenci** | Mehmet Akif Geriş |
 | **Öğrenci No** | 1240505033 |
-| **Ders** | Ağ Programlama |
 | **Port** | 1989 |
 | **Dil** | Java |
 
