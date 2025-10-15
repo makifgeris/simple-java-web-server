@@ -57,8 +57,8 @@ Java 8 veya üzeri
 
 1. **Repoyu klonlayın**
 ```bash
-git clone https://github.com/makifgeris/java-socket-webserver.git
-cd java-socket-webserver
+git clone https://github.com/makifgeris/simple-java-web-server.git
+cd simple-java-web-server
 ```
 
 2. **Projeyi derleyin**
